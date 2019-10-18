@@ -10,4 +10,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  white-space: pre-wrap;
+}
+
+.code-container {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+}
+
+.app {
+  padding: 2rem;
+}
+
+.active {
+  margin-top: 2rem;
+  border-top: 1px solid #eaecef;
+  padding-top: 1rem;
+}
+
+.active-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.active-example {
+  margin-left: 2rem;
 }
